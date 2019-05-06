@@ -1,0 +1,13 @@
+com\qzc\controller\StduentController.class
+com\qzc\util\ConsumerData.class
+com\qzc\dao\PeopleMapper.class
+com\qzc\entity\Student.class
+com\qzc\util\DateSourceConfig.class
+com\qzc\SsmDemoApplication.class
+com\qzc\util\HttpsConnectionUtil.class
+com\qzc\util\ProduceData.class
+com\qzc\entity\People.class
+com\qzc\controller\PeopleController.class
+com\qzc\util\BeanContext.class
+com\qzc\util\JedisConUtil.class
+com\qzc\dao\StudentMapper.class
