@@ -76,6 +76,11 @@
 		    <version>1.4.3.RELEASE</version>
 		</dependency>
 
+		<!--springboot整合springMVC-->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-freemarker</artifactId>
+		</dependency>
         <!-- 热部署 -->
 		<dependency>
 	        <groupId>org.springframework.boot</groupId>
