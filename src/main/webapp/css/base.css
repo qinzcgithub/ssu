@@ -1,0 +1,172 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font: inherit;
+	font-size: 100%;
+	vertical-align: baseline
+}
+html {
+	line-height: 1
+}
+ol, ul {
+	list-style: none
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0
+}
+caption, th, td {
+	font-weight: normal;
+	vertical-align: middle
+}
+q, blockquote {
+	quotes: none
+}
+q:before, q:after, blockquote:before, blockquote:after {
+	content: "";
+	content: none
+}
+a{ text-decoration:none;}
+a img {
+	border: none
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+	display: block
+}
+@font-face {
+	font-family: 'iconfont';
+	src: url('../fonts/iconfont.eot?1459301973');
+	src: url('../fonts/iconfont.eot?&1459301973#iefix') format("embedded-opentype"), url('../fonts/iconfont.woff?1459301973') format("woff"), url('../fonts/iconfont.ttf?1459301973') format("truetype"), url('../fonts/iconfont.svg?1459301973#iconfont') format("svg")
+}
+/*.iconfont {
+	font-family: "iconfont" !important;
+	font-size: 16px;
+	font-style: normal;
+	-webkit-font-smoothing: antialiased;
+	-webkit-text-stroke-width: 0.2px;
+	-moz-osx-font-smoothing: grayscale
+}*/
+html {
+*overflow:auto
+}
+body, button, input, select, textarea {
+	font-family:Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, sans;
+	font-size: 14px
+}
+#inner-bd {
+	padding: 0 20px
+}
+
+.button {
+    *float:left;
+	display: inline-block;
+	height: 28px;
+	cursor: pointer;
+	margin-right: 20px
+}
+
+.button.disable {
+	color: #b8b8b8;
+	border: 1px solid #dddddd;
+	cursor: not-allowed;
+	background-color: #f1f1f1
+}
+.button.disable .button-label {
+	color: #b8b8b8
+}
+.button.disable .iconfont {
+	color: #b8b8b8
+}
+.button .button-label {
+	float: left;
+	height: 16px;
+	margin-top: 8px;
+	font-size: 14px;
+	color: #000;
+	line-height: 16px
+}
+.button-group {
+ 	*float:left;
+ 	*width:100%;
+	margin-bottom: 15px
+}
+
+.crumbs {
+	margin-bottom: 15px;
+	height: 40px;
+	background-color: #f5f5f5;
+}
+.crumbs .crumbs-label {
+	float: left;
+	display: inline-block;
+	color: #085fbb;
+	font-size: 14px;
+	height: 16px;
+	margin: 15px 0 0 20px;
+	line-height: 12px;
+	font-weight: bold;
+	text-decoration: none;
+	font-weight:bold;
+}
+.kv-table {
+	border: 1px solid #c9c9c9;
+	*border:1px solid #c9c9c9;
+}
+table.kv-table {
+	width: 100%
+}
+table.kv-table tr{	text-align:center; height:40px;}
+table.kv-table tbody tr td{
+	border:1px solid #c9c9c9;
+	}
+table.kv-table thead{ 
+	background:#085fbb;
+	text-align:center;
+	color:#fff;
+	font-size:14px;
+	font-weight:bold;
+}
+table.kv-table thead td.kv-num{
+	width:20%
+	}
+table.kv-table thead td.kv-name{
+	width:50%
+	}
+table.kv-table thead td.kv-handle{
+	width:30%
+	}
+table.kv-table tbody td .handle{
+	display:inline-block;
+	height:28px;
+	text-align:center;
+	line-height:40px;
+	}
+table.kv-table tbody td .handle .handle-icon{
+	float:left;
+	margin-right:10px;
+	width:28px;
+	height:28px;
+	cursor:pointer;
+	}
+table.kv-table tbody td .handle .del{
+	background:url(../images/handle-icon.gif);
+	}
+table.kv-table tbody td .handle .fix{
+	background:url(../images/handle-icon.gif) 0 -29px;
+	}
+table.kv-table tbody td .handle .editstate{
+	background:url(../images/handle-icon.gif) 0 -58px;
+	}
+table.kv-table tbody td .handle .date{
+	background:url(../images/handle-icon.gif) 0 -87px;
+	}
+table.kv-table tbody td .handle .write{
+	background:url(../images/handle-icon.gif) 0 -116px;
+	}
+table.kv-table tbody td .handle .cksbmx{
+	background:url(../images/handle-icon.gif) 0 -145px;
+	}
+table.kv-table tbody td .handle .xzsbmx{
+	background:url(../images/handle-icon.gif) 0 -174px;
+	}

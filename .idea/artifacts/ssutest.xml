@@ -1,0 +1,19 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="ssutest">
+    <output-path>$PROJECT_DIR$/classes/artifacts/ssutest</output-path>
+    <root id="archive" name="ssutest.war">
+      <element id="artifact" artifact-name="ssu" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: javax.servlet:jstl:1.2" />
+          <element id="library" level="project" name="Maven: org.apache.tomcat.embed:tomcat-embed-jasper:8.5.34" />
+          <element id="library" level="project" name="Maven: org.eclipse.jdt:ecj:3.12.3" />
+          <element id="library" level="project" name="Maven: taglibs:standard:1.1.2" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
+      </element>
+    </root>
+  </artifact>
+</component>
