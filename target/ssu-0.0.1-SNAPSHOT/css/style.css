@@ -1,0 +1,114 @@
+@charset "utf-8";
+/* CSS Document */
+article,aside,dialog,footer,header,section,footer,nav,figure,menu{display:block}
+html{font-size:12px;}
+body,div {font-family:"Microsoft YaHei",Arial; margin: 0px; padding: 0px; color:#333333;}
+/*字体边框等初始化*/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,tr,th,td,img{padding:0; margin:0; }
+table{border-collapse:collapse; border-spacing:0;}
+fieldset,img,input{border:0;}
+address,caption,cite,code,dfn,th,var{font-weight:normal; font-style:normal;}
+ol,ul,li{list-style:none; vertical-align:top;}
+caption,th{text-align:left;}
+h1,h2,h3,h4,h5,h6{font-weight:normal; font-size:100%;}
+q:before,q:after{content:'';}
+abbr,acronym{border:0;}
+a{text-decoration:none; outline:none; color:#333;}
+a img{border:none;}/*for IE*/
+a:active{star:expression(this.onFocus=this.blur());}/*点击虚框去除*/
+:after, :before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;}
+.fl{ float:left;}
+.fr{ float:right;}
+/*login*/
+.container{
+    width: 100%;
+    min-height: 920px;
+    background: url("../images/bg.jpg") top center #ffffff;
+}
+.box{
+    width: 426px;
+    height: auto;
+    margin: 0 auto;
+    padding-top: 200px;
+}
+.title{
+    width: 396px;
+    height: 76px;
+    background: url("../images/title.png"); margin-left: 15px;
+}
+.loginbox{
+    width: 426px;
+    height: 290px;
+    background: #ffffff;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+.loginbox .heading{
+    background: url("../images/tips.png") 338px 0px no-repeat;
+    color: #d6d6e2;
+    text-align: center;
+    display: block;
+    font-size: 32px;
+    font-weight: 700;
+    border-bottom: 1px solid #f0f0f0;
+    margin: 20px 0 20px 0;
+    padding:30px 0 20px 0;
+}
+.loginbox .form-group{
+    padding: 0 43px;
+    margin: 0 0 10px 0;
+    position: relative;
+}
+.loginbox .form-control{
+    width: 275px;
+    background: #f0f0f0;
+    font-size: 14px;
+    line-height: 40px;
+    border: none;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    box-shadow: none;
+    padding: 0 20px 0 45px;
+    height: 40px;
+    transition: all 0.3s ease 0s;
+}
+.loginbox .form-control:focus{
+    background: #e0e0e0;
+    box-shadow: none;
+    outline: 0 none;
+}
+.loginbox .form-group i{
+    position: absolute;
+    top: 12px;
+    left: 60px;
+    font-size: 17px;
+    color: #c8c8c8;
+    transition : all 0.5s ease 0s;
+}
+.loginbox .form-control:focus + i{
+    color: #085fbb;
+}
+.loginbox .btn{
+    width: 100%;
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    background: #ff8814;
+    border-radius: 30px;
+    padding: 10px 0px;
+    border: none;
+    text-transform: capitalize;
+    transition: all 0.5s ease 0s;
+    cursor: pointer;
+}
+.gold{
+    width: 124px;
+    height: 108px;
+    background: url("../images/gold.png") no-repeat;
+    z-index: 20;
+    position: relative;
+    top: -90px;
+    left: -90px;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="file" name="" id="fileId" onchange="upload()">
+</body>
+<script>
+    var filePath ="";
+    var fileType ="";
+    function upload(){
+        var fileName = document.getElementById('#fileId').value.split('\\'); //得到文件名数组
+        var fileSize =  document.getElementById('fileId').files[0]; //获得文件大小；
+        fileName2 = fileName[fileName.length-1]; // 获得文件名
+        filePath = $('#fileId').val().toLowerCase().split(".");
+        fileType =  filePath[filePath.length - 1]; //获得文件结尾的类型如 zip rar 这种写法确保是最后的
+        $('.errHint').show().text(fileName[2]);
+        console.log(filePath);
+        console.log(fileType);
+        if(!(fileType == "png" || fileType == "jpg" || fileType == "xlsx"|| fileType == "docx"|| fileType == "rar" || fileType == "zip" )){
+            $('.errHint').show().text('文件格式不符合要求！')
+        }else if(fileSize.size>10485760){
+            $('.errHint').show().text('错误！请上传不超过10M的文件');
+            return
+        }
+    }
+</script>
+</html>
